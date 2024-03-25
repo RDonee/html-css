@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-bt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens em HTML5</title>
+</head>
+<body>
+    <h1>midias</h1>
+    <p>tente abrir o site em diversos dispositivos, senão aumente e diminua o tamanho do navegador</p>
+    <picture>
+        <source media="(max-width:750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width:1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="img flexivel">
+    </picture>
+    <h1>Reproduzindo audio</h1>
+    <p>Iremos reproduzir um audio abaixo</p>
+    <audio preload="metadata" controls loop>
+        <source src="midia/ambiente.mp3" type="audio/mpeg">
+        <source src="midia/ambiente.mp3" type="audio/ogg">
+        <p>Infelizmente não foi possivel reproduzir o audio</p>
+    </audio>
+</body>
+</html>

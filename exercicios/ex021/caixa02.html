@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color:  dimgray;
+            margin: 0px;
+        }
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        
+        nav {
+            background-color: gray;
+            padding: 3px;
+            box-shadow: 5px 5px 6px 1px rgba(0, 0, 0, 0.452);
+        }
+        nav > a {
+            color: white;
+            text-decoration: none;
+            margin-left: 30px;
+        }
+        
+        nav > a:hover {
+            text-decoration: underline;
+        }
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            box-shadow: 5px 4px 6px 1px rgba(0, 0, 0, 0.473);
+            border-radius: 10px 0px
+        }
+
+        article {
+            background-color: lightgray;
+        }
+        article > aside {
+            background-color: rgb(128, 128, 128);
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            margin: 0px;
+            padding: 7px;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="a">Link</a>
+            <a href="a">Link</a>
+            <a href="a">Link</a>
+            <a href="a">Link</a>
+            <a href="a">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Esportes Politicas Tecnologia</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis similique vel modi ipsam ea asperiores, nam earum dolores repellendus natus aut voluptate nulla at quidem illo quaerat, rerum, inventore commodi.</p>
+                <aside>
+                    Artigo escrito por Jose da Silva
+                </aside>
+            </article>
+            <article>
+            
+            </article>
+        </section>
+    </main>
+    <footer>
+        Desenvolvido por RD ONE
+    </footer>
+</body>
+</html>

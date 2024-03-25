@@ -1,0 +1,83 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'android';
+    src: url(fontes/idroid.otf) format(opentype);
+}
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #84e1ad;
+    margin: 0px;
+}
+
+
+header {
+    background-image: linear-gradient(to top, #1a5c38, #3cd983);
+    color: white;
+    padding: 10px;
+    margin: 0px auto 0px auto;
+}
+
+h1, #principal {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav > a {
+    color: white;
+    text-decoration: none;
+    margin-right: 30px;
+}
+nav > a:hover {
+    background-color: #081d11;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: underline;
+    
+}
+
+main {
+    background-color: white;
+    padding: 10px;
+    margin: 00px 200px;
+    text-align: center;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 3px 3px 6px 1px rgba(0, 0, 0, 0.37);
+}
+
+p {
+    text-align: justify;
+    text-indent: 30px;
+}
+
+
+h2 {
+    font-family: 'android';
+    color: #1a5c38;
+    text-align: left;
+}
+article#video {
+    background-color: #175230;
+    padding: 20px 20px;
+    margin: 10px auto 10px auto;
+    border: 10px;
+}
+
+ /* Rodapé*/
+footer {
+    background-color: #175230;
+    color: rgb(180, 180, 180);
+    padding: 6px;
+    margin-top: 15px;
+}
+
+footer > p {
+    margin: 0px;
+    text-align: center;
+}
+
+footer > p > span {
+    color: white;
+}
